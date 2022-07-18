@@ -1,0 +1,24 @@
+.desktop-first {
+    padding: 1em;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.15);
+    margin: 2em auto;
+    max-width: 750px;
+  }
+  
+  /*  desktop-first */
+  .desktop-first .sales-points {
+    display: flex;
+    justify-content: space-between;
+  }
+  .desktop-first .sales-point {
+    width: 30%;
+  }
+  @media (max-width: 600px) {
+    .desktop-first .sales-points {
+      display: block;
+    }
+  
+    .desktop-first .sales-point {
+      width: 100%;
+    }
+  }
